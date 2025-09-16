@@ -1,0 +1,28 @@
+.header {
+  background-color: lightblue;
+  line-height: 10px;
+  border: 10px outset lightblue;
+  height: 160px;
+}
+
+.headertext {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headerphoto {
+  width: 128px;
+  height: 128px;
+  float: right;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.headericon {
+  width: 64px;
+  height: 64px;
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+/*# sourceMappingURL=styles.css.map */
