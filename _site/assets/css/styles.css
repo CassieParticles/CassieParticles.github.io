@@ -34,29 +34,33 @@
 }
 
 .showimage {
-  width: 448px;
-  height: 256px;
+  width: 23%;
+  height: 45%;
   position: absolute;
 }
 
+.showtext {
+  width: 50%;
+}
+
 .showtl {
-  top: 30px;
-  right: 500px;
+  top: 2%;
+  right: 25%;
 }
 
 .showtr {
-  top: 30px;
-  right: 30px;
+  top: 2%;
+  right: 1%;
 }
 
 .showbl {
-  top: 300px;
-  right: 500px;
+  top: 53%;
+  right: 25%;
 }
 
 .showbr {
-  top: 300px;
-  right: 30px;
+  top: 53%;
+  right: 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */
