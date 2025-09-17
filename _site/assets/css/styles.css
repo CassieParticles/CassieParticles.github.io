@@ -25,4 +25,38 @@
   margin-bottom: 8px;
 }
 
+.showbox {
+  background-color: green;
+  line-height: 16px;
+  border: 10px outset green;
+  height: 572px;
+  position: relative;
+}
+
+.showimage {
+  width: 448px;
+  height: 256px;
+  position: absolute;
+}
+
+.showtl {
+  top: 30px;
+  right: 500px;
+}
+
+.showtr {
+  top: 30px;
+  right: 30px;
+}
+
+.showbl {
+  top: 300px;
+  right: 500px;
+}
+
+.showbr {
+  top: 300px;
+  right: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
