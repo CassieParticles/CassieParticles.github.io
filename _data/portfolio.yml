@@ -1,13 +1,21 @@
  - Title: "ElusiveCore: ZeroTrace"
-   paragraph: "Elusive Core: Zero Trace was a game I worked on with a team of 8 other students during my third year of Abertay University,the game was a success but we had further things we wanted to do with the game, and so we decided to take it to dare, where we made it to the finalists,during development, I was one of 2 programmers, with my ain area of focus being systems and tools for our level designer to create levels, one  system of note is the spotlight system, since the final concept of the levels wasn't fully realized, I needed to make the spotlight behaviour as open to our designer without them needing me to code it's behaviour. To achieve this, I created a system of anchors and triggers, where any trigger could tell the spotlight to move to any anchor, there were several types of trigger and anchor, and if our designer wanted a new type of trigger or anchor, it could be easily added and integrated into the system.
-As well as this, I was our teams version control admin, during Dare, I set up our team to work during the git-flow workflow, which was a success, with some improvements to be taken from it. The experience gave me oppertunity to get a lot more comfortable working with  git, using functions like cherry-pick, rebasing and even writing a couple python scripts to automate certain tasks"
+   paragraph: "Elusive Core: Zero Trace was a game I worked on with a team of 8 other students during my third year of Abertay University,the game was a success but we had 
+   further things we wanted to do with the game, and so we decided to take it to dare, where we made it to the finalists,during development, I was one of 2 programmers, 
+   with my ain area of focus being systems and tools for our level designer to create levels, one  system of note is the spotlight system, since the final concept of the 
+   levels wasn't fully realized, I needed to make the spotlight behaviour as open to our designer without them needing me to code it's behaviour. To achieve this, I created 
+   a system of anchors and triggers, where any trigger could tell the spotlight to move to any anchor, there were several types of trigger and anchor, and if our designer 
+   wanted a new type of trigger or anchor, it could be easily added and integrated into the system. As well as this, I was our teams version control admin, during Dare, I 
+   set up our team to work during the git-flow workflow, which was a success, with some improvements to be taken from it. The experience gave me oppertunity to get a lot 
+   more comfortable working with  git, using functions like cherry-pick, rebasing and even writing a couple python scripts to automate certain tasks"
    Image1: "/assets/images/Sneaking.png"
    Image2: "/assets/images/Score.png"
    Image3: "/assets/images/ScreenshotCutscene.png"
    Image4: "/assets/images/Hacking1.gif"
  - Title: "E.N.D Protocol"
-   paragraph: "This is a game too"
-   Image1: "/assets/images/Cassie.jpeg"
-   Image2: "/assets/images/Cassie.jpeg"
-   Image3: "/assets/images/Cassie.jpeg"
-   Image4: "/assets/images/Cassie.jpeg"
+   paragraph: "END Protocol was a game made during a 2 day game jam with mostly the same team as Elusive Core, we worked on it to see if our team could work well together before 
+   commiting to a longer project. Within this project I mainly worked on the meteor spawner, that spawned meteors to shoot at the player, as well as part of the cursor,
+   I was unfortunately unable to be present for the entire game jam as I had a sword fighting tournament at the same time"
+   Image1: "/assets/images/EndProtocolA.png"
+   Image2: "/assets/images/EndProtocolB.png"
+   Image3: "/assets/images/EndProtocolC.png"
+   Image4: "/assets/images/EndProtocolD.png"
