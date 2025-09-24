@@ -1,0 +1,6 @@
+
+{%if {{include.EmbedLink}} contains "youtube"%}
+    <iframe src = "{{include.EmbedLink}}" class = "{{include.Class}}" allowfullscreen="allowfullscreen"></iframe>
+{%else%}
+    <img src="{{include.EmbedLink}}" class = "{{include.Class}}"></img>
+{%endif%}
