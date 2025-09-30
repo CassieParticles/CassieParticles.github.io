@@ -20,9 +20,21 @@
 .headericon {
   width: 64px;
   height: 64px;
+  border: 16px;
   float: left;
   margin-left: 8px;
   margin-bottom: 8px;
+}
+
+.textbox {
+  background-color: darkblue;
+  padding: 8px;
+  border: 16px;
+}
+
+.textboxtext {
+  color: white;
+  border: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
