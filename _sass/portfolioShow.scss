@@ -1,0 +1,21 @@
+.portfolioBox
+{
+    display: none;  /*Default is none, controlled by buttons*/
+    background-color: white;
+    position: fixed;
+    left: 10%;
+    top:10%;
+    width: 80%;
+    height: 80%;
+}
+
+.portfolioCloseButton
+{
+    position: absolute;
+    right:8px;
+    top:8px;
+    background-color: transparent;
+    border: none;
+    width: 64px;
+    height: 64px;
+}

@@ -1,0 +1,31 @@
+.portfolioIcon
+{
+    background-color: rgb(30,34,52);
+    border-color: lightblue;
+    width: 350px;
+    height: 500px;
+    border-style:solid;
+    display: inline-block;
+
+    margin: 30px;
+}
+
+.portfolioIconThumbnail
+{
+    width : 300px;
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+.portfolioIconTitle
+{
+    text-align: center;
+    color: rgb(182, 146, 223);
+}
+
+.portfolioIconTagline
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(54, 196, 176);
+}

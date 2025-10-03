@@ -1,0 +1,87 @@
+.header {
+  background-color: lightblue;
+  line-height: 10px;
+  border: 10px outset lightblue;
+  height: 160px;
+}
+
+.headertext {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headerphoto {
+  width: 128px;
+  height: 128px;
+  float: right;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.headericon {
+  width: 64px;
+  height: 64px;
+  border: 16px;
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.textbox {
+  background-color: darkblue;
+  padding: 8px;
+  border: 16px;
+}
+
+.textboxtext {
+  color: white;
+  border: 16px;
+}
+
+.portfolioIcon {
+  background-color: rgb(30, 34, 52);
+  border-color: lightblue;
+  width: 350px;
+  height: 500px;
+  border-style: solid;
+  display: inline-block;
+  margin: 30px;
+}
+
+.portfolioIconThumbnail {
+  width: 300px;
+  margin: 25px;
+  margin-bottom: 0px;
+}
+
+.portfolioIconTitle {
+  text-align: center;
+  color: rgb(182, 146, 223);
+}
+
+.portfolioIconTagline {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(54, 196, 176);
+}
+
+.portfolioBox {
+  display: none; /*Default is none, controlled by buttons*/
+  background-color: white;
+  position: fixed;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.portfolioCloseButton {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: transparent;
+  border: none;
+  width: 64px;
+  height: 64px;
+}
+
+/*# sourceMappingURL=styles.css.map */
