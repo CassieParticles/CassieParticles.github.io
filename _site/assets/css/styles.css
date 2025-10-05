@@ -95,8 +95,9 @@
 }
 
 .portfolioImage {
-  width: 25px;
-  height: 25px;
+  width: 384px;
+  height: 256px;
+  float: right;
 }
 
 /*# sourceMappingURL=styles.css.map */
