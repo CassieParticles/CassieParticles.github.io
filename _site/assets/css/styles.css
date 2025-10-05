@@ -73,6 +73,7 @@
   top: 10%;
   width: 80%;
   height: 80%;
+  overflow: auto;
 }
 
 .portfolioCloseButton {
@@ -94,10 +95,23 @@
   margin: 8px;
 }
 
-.portfolioImage {
+.portfolioImageRight {
+  width: 384px;
+  height: 256px;
+  padding-left: 8px;
+  float: right 8px;
+}
+
+.portfolioImageRight {
   width: 384px;
   height: 256px;
   float: right;
+}
+
+.portfolioImageLeft {
+  width: 384px;
+  height: 256px;
+  float: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
