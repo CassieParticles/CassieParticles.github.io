@@ -87,20 +87,22 @@
 }
 
 .portfolioTitle {
+  font-size: 40px;
   margin: 8px;
   color: rgb(182, 146, 223);
+}
+
+.portfolioSubtitle {
+  color: rgb(54, 196, 176);
+  margin: 8px;
+  font-size: 32px;
+  font-weight: 200;
 }
 
 .portfolioParagraph {
   color: rgb(54, 196, 176);
   margin: 8px;
-}
-
-.portfolioImageRight {
-  width: 384px;
-  height: 256px;
-  padding: 8px;
-  float: right 8px;
+  font-size: 20px;
 }
 
 .portfolioImageRight {

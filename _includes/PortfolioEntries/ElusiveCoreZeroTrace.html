@@ -1,47 +1,55 @@
 <h1 class = portfolioTitle>Elusive Core: Zero Trace</h1>
+<br>
+<p class = portfolioParagraph>
+    This project was by far one of the largest ones I'd been on before, going on for 9 months total on a team of 8, it ways
+    a great learning opportunity, during this project I learned the importance of code maintaiability and how to practically use
+    inheritance with components in the Unity engine, as well as working well with designers and making tools for them to do their job 
+    effectively.
+</p>
+<br>
+
+<h2 class = portfolioSubtitle>
+    Enemy AI
+</h2>
+<img src = "/assets/images/ECZT/BaseState.png" class = portfolioImageRight></img>
 
 <p class = portfolioParagraph>
-Elusive Core: Zero Trace was a stealth-platform that I worked on as part of the team Cosmic Coda over 7 months, the project started out as part of our professional project module in third year.
-We were a team of 8 developers over several disciplines, where I was one of two programmers, we worked with pocket sized hands to create a game from the prompt "X meets Y", 
-after the module was finished, we decided to enter into dare, where we got to the finalists stage, meaning we were able to further work on the game for another 2 months. 
-During this project I learned many useful skills, such as writing more maintainable code, creating tools for designers to use within levels, and documentation keeping
+    The guard behaviour used a state machine, using an abstract class and inheritance for each state. The guard behaviour was set up as a puppet,
+    with functions that would be called by the state machine to control it's behaviour, such as move, look, chase. Making adding new behaviour simpler and cleaner.
 </p>
+<br>
+<h2 class = portfolioSubtitle>
+    Hacking
+</h2>
+<p class = portfolioParagraph>
+    Since we kept adding new hackable behaviours, it was important that hackable objects be simple to add. All hackable scripts inherit from an asbtract class.
+    The player searches for these base types, and when hacking calls the virtual function OnHack. Meaning when new hackable objects are added, no changes to existing behaviours needs to happen
+</p>
+<br>
+
+<h2 class = portfolioSubtitle>
+    Spotlight
+</h2>
 
 <video  class = portfolioImageRight autoplay loop muted>
-    <source src = "/assets/images/ECZT/Spotlight & hacking showcase.webm">
-</video>
-
-<p class = portfolioParagraph>
-I created the enenmy behaviour within the game, including the guards, the guard behaviour was done using a finite state machine, with each state being an object, allowing new 
-behaviours to be added without affecting the flow or behaviour of existing states
-</p>
-
-
-
-<p class = portfolioParagraph>
-The boss spotlight was one of the main features we wanted for dare, the design of this system was influenced by our designer, since he would need maximum control over the behaviour
-of the spotlight, but we wanted to avoid making him write code, so I created a system using triggers to make the spotlight change it's behaviour, with anchors controlling the spotlights behaviour,
-This was designed with the mentality that he would want more ways to control the spotlight as the project developed which influenced the design of the spotlight system to allow for this
-</p>
-
-
-
-<p class = portfolioParagraph>
-The hacking system was created to combat the player not having enough ways to influence the world, it was created in two parts, with our other programmer creating the player interaction side,
-and me creating the hackables that the player would hack, since our designers would almost certainly want new hackable objects as the project went on it was imperitive  the hackables be designed
-so that creating new hackable objects could be done without requiring any restructuring of other parts of the code, and so I designed the system to ensure this could be done
-</p>
-
-<video  class = portfolioImageLeft autoplay loop muted>
     <source src = "/assets/images/ECZT/Final showcase.webm">
 </video>
-
 <p class = portfolioParagraph>
-As well as programmer, I was also this projects source control admin, this meant I was in charge of managing and maintaining our git repository, to reduce issues with this, I asked our team to follow
-the git-flow workflow, where all changes are done on feature branches, before being merged into a development branch. In addition to this, I created training materials for using git-flow with various git guis, 
-including git kraken, github desktop and sourcetree
+    The spotlight behaviour was a puppet class, that could be told to move, and to follow the player. There were anchor objects that could be placed in the scene
+    by our designer to control where the spotlight moves to, including a patrol anchor, which followed a repeating path, rather then just staying still. To control when the 
+    spotlight changed anchors, triggers were created which took various triggers, such as player contact, noises, alarms, and hacked objects and changed the anchors.
+</p>
+<br>
+<h2 class = portfolioSubtitle>
+    Distance display
+</h2>
+<p class = portfolioParagraph>
+    The display was a GUI intended to tell the player how far away the death wall and the checkpoints were. This used a tracker component which was attached to game objects to be tracked
+    When the player was a certain distance from an object, it would be added to a sorted list of objects to be displayed. The GUI would appear on either the right or left, and would get larger 
+    the closer the player was the larger the GUI appeared
 </p>
 
+<br>
 <a href = "https://cosmic-coda.itch.io/eczt" class = portfolioParagraph>Our game can be found here</a>
 
 <p class = portfolioParagraph>
